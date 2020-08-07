@@ -1,0 +1,108 @@
+.projects-intro {
+  width: 100%;
+  margin: $l-size 0 $xl-size 0;
+}
+
+.projects-intro h1 {
+  margin-bottom: $s-size;
+}
+
+.projects-intro a {
+  color: $cyan;
+}
+
+.projects-list:last-child {
+  margin-bottom: 8rem;
+}
+
+.projects-list__item {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.projects-list__description {
+  padding-right: $m-size;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-list__description h2 {
+  margin-bottom: $s-size;
+}
+
+.projects-list__description img {
+  width: 100%;
+  height: auto;
+  border: 3px solid $gold-brown;
+}
+
+.projects-list__description a {
+  color: $cyan;
+}
+
+.projects-list__description p {
+  font-size: $s-size;
+}
+
+.projects-list__links {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: $s-size;
+}
+
+.projects-list__links i {
+  margin-right: .5rem;
+}
+
+
+.projects-list__additional-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: $m-size;
+
+  @media (max-width: $breakpoint-one) {
+    padding-left: xs-size;
+  }
+}
+
+.projects-list__additional-info h3 {
+  margin-bottom: $s-size;
+  font-size: 2.8rem;
+}
+
+.projects-list__additional-info i {
+  width: 2rem;
+  height: 2rem;
+  margin-right: $xs-size;
+}
+
+.projects-list__technologies-used p {
+  margin-bottom: .5rem;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: $s-size;
+}
+
+.projects-list__technologies-used i {
+  font-size: 2rem;
+}
+
+.projects-list__features-used {
+  margin-top: 2rem;
+}
+
+.projects-list__features-used li {
+  font-size: $s-size;
+  margin-bottom: .5rem;
+}
+
+.projects-list__features-used i {
+  width: 2rem;
+  height: 2rem;
+  margin-right: .5rem;
+}

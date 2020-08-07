@@ -1,0 +1,30 @@
+h1 {
+  margin-bottom: $l-size;
+  letter-spacing: .25rem;
+  font-size: $xl-size;
+  color: $gold-brown;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: $l-size;
+  color: $gold-brown;
+}
+
+h3 {
+  font-size: $m-size;
+  color: $gold-brown;
+}
+
+p {
+  font-size: $m-size;
+  line-height: 1.5em;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

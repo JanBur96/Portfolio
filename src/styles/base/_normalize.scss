@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+
+  @media (max-width: $breakpoint-one) {
+    font-size: 50%;
+  }
+}
+
+body {
+  background-color: $dark-blue;
+  font-family: 'Roboto', sans-serif;
+  color: $white;
+}

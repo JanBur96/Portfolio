@@ -1,0 +1,56 @@
+.button {
+  margin-top: $xl-size;
+  padding: $s-size $l-size;
+  border: 1px solid $gold-brown;
+  border-radius: 25px;
+  color: $white;
+  background-color: darken($dark-blue, 5%);
+  font-size: $s-size;
+  transition: .35s;
+
+  &:hover {
+    background-color: darken($dark-blue, 10%);
+    transform: scale(1.05) translateY(-2px);
+  }
+
+  @media (max-width: $breakpoint-one) {
+    font-size: 1.8rem;
+  }
+}
+
+.button-small {
+  margin: 0 5.3rem;
+  padding: $xs-size $s-size;
+  border: 1px solid $gold-brown;
+  border-radius: 5px;
+  color: $white;
+  background-color: darken($dark-blue, 5%);
+  transition: .35s;
+
+  &:hover {
+    background-color: darken($dark-blue, 10%);
+    transform: scale(1.05) translateY(-2px);
+  }
+}
+
+#button-up {
+  display: none;
+  position: fixed;
+  right: $m-size;
+  bottom: $s-size;
+  padding: $s-size 1.9rem;
+  border: 1px solid $gold-brown;
+  border-radius: 50%;
+  color: $white;
+  background-color: darken($dark-blue, 5%);
+  font-size: 1.9rem;
+  transition: .35s;
+  cursor: pointer;
+  
+  &:hover {
+    border: 1px solid $gold-brown;
+    color: $white;
+    background-color: darken($dark-blue, 10%);
+    transform: scale(1.05);
+  }
+}

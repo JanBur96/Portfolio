@@ -1,0 +1,235 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About */
+.about {
+  margin: $l-size 0 8rem 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  @media (max-width: $breakpoint-one) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}
+
+.about__text {
+  @media (max-width: $breakpoint-one) {
+    margin-bottom: 4rem;
+  }
+}
+
+.about__text p {
+  font-size: 2.7rem;
+  line-height: 1.5em;
+
+  @media (max-width: $breakpoint-one) {
+    text-align: center;
+    padding: 0 1rem;
+  }
+}
+
+.about__button {
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: $breakpoint-one) {
+    width: 16rem;
+  }
+}
+
+.about__picture img {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  right: 1rem;
+  border: 3px solid $gold-brown;
+  border-radius: 50%;
+  object-fit: cover;
+  transform: translateY(-25%);
+
+  @media (max-width: $breakpoint-one) {
+    position: static;
+    width: 20rem;
+    height: 20rem;
+    border: 3px solid $gold-brown;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: none;
+  }
+}
+
+
+/* Skills */
+.skills {
+  width: 100%;
+  margin: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: $breakpoint-one) {
+    margin: 4rem 0;
+  }
+}
+
+.skills__text {
+  margin-bottom: $l-size;
+}
+
+.skills__grid {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: $l-size;
+  color: $white;
+  text-align: center;
+}
+
+.skills__grid p {
+  font-size: $s-size;
+}
+
+.skills__grid i {
+  margin-bottom: 1rem;
+  color: $white;
+  font-size: 6.4rem;
+}
+
+.skills__item {
+  padding: $xs-size;
+  border: 1px solid $gold-brown;
+  border-radius: 15px;
+  background-color: darken($dark-blue, 5%);
+  transition: .35s;
+}
+
+/* Currently */
+.currently {
+  width: 100%;
+  margin: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: $breakpoint-one) {
+    margin: 4rem 0;
+  }
+}
+
+.currently__text {
+  margin-bottom: $l-size;
+}
+
+.currently__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.currently__grid a {
+  color: $cyan;
+  text-decoration: underline;
+
+  &:visited {
+    color: $cyan;
+  }
+}
+
+.currently__item {
+  height: 8rem;
+  border: 2px solid $gold-brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: darken($dark-blue, 5%);
+}
+
+.currently__item p {
+  font-size: $s-size;
+}
+
+/* Projects */
+.showcase {
+  width: 100%;
+  margin: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: $breakpoint-one) {
+    margin: 4rem 0;
+  }
+}
+
+.showcase__text {
+  margin-bottom: $l-size;
+}
+
+.showcase__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: $s-size;
+}
+
+.showcase__grid h3 {
+  margin-bottom: $s-size;
+  padding-top: $xs-size;
+}
+
+.showcase__grid img {
+  width: 24.25rem;
+  height: auto;
+  margin-bottom: $m-size;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.showcase__item {
+  padding: $xs-size 0;
+  border: 2px solid $gold-brown;
+  border-radius: 15px;
+  background-color: darken($dark-blue, 5%);
+}
+
+.showcase__link {
+  cursor: unset;
+}
+
+.showcase__btns {
+  padding: 0 0 $s-size 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+}
+
+.showcase__all {
+  margin-top: 0rem;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}

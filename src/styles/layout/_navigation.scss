@@ -1,0 +1,44 @@
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $gold-brown;
+}
+
+.navigation {
+  height: 100%;
+}
+
+nav ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.5rem;
+  font-size: $m-size;
+  transition: all .35s;
+
+  &:hover {
+    background-color: darken($dark-blue, 10%);
+  }
+
+  @media (max-width: $breakpoint-one) {
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
+}
+
+nav li a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $gold-brown;
+}
