@@ -9,9 +9,12 @@ header {
   }
 }
 
-.logo h1 {
+.logo a {
+  display: inline-block;
   font-size: $xl-size;
   margin: 0rem;
+  color: $gold-brown;
+  font-weight: 500;
 
   @media (max-width: $breakpoint-one) {
     font-size: 4rem;

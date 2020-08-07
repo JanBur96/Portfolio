@@ -28,7 +28,7 @@
 .divider-large-mt {
   width: 24rem;
   border: 2px solid $gold-brown;
-  margin-top: 2.9rem;
+  margin-top: 1.8rem;
 }
 
 .divider-very-large {
@@ -37,4 +37,9 @@
   margin: 0 auto;
   margin-top: 5rem;
   margin-bottom: 5rem;
+
+  @media (max-width: $breakpoint-one) {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 }

@@ -26,11 +26,11 @@
     <meta property="twitter:image" content="https://jan-web.dev/assets/images/preview.png">
   </head>
 <body>
-  <button id="button-up" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+  <button class="button-up" title="Go to top"><i class="fas fa-arrow-up"></i></button>
   <header>
       <nav>
         <div class="logo">
-          <h1>JB</h1>
+          <a href="#">JB</a>
         </div>
         <div class="navigation">
           <ul>
@@ -48,18 +48,18 @@
         <p>I'm a <strong>front-end developer</strong> and <strong>web designer</strong> with a lot of <strong>ambition</strong> and <strong>passion</strong> from <strong>Lemgo, Germany</strong>.</p>
       </div>
       <div class="about__picture">
-        <img src="https://via.placeholder.com/200" alt="A picture of me (Jan)">
+        <img src="./assets/images/Me.png" alt="A picture of me (Jan)">
       </div>
       <a href="#contact" class="about__button button">Contact Me</a>
     </section>
-    <section class="divider-box">
+    <div class="divider-box">
       <div class="divider-large-mb"></div>
       <div class="divider-small"></div>
-    </section>
+    </div>
     <section class="skills container">
       <div class="skills__text">
         <h2>Tech Stack</h2>
-        <p>My constantly evolving skills, these are the technologies I'm capable to use:</p>
+        <p>My constantly evolving skills - these are the technologies I'm capable to use:</p>
       </div>
       <div class="skills__grid">
         <div class="skills__item">
@@ -68,7 +68,7 @@
         </div>
         <div class="skills__item">
           <i class="fab fa-css3-alt"></i>
-          <p>CSS3</p>
+          <p>CSS</p>
         </div>
         <div class="skills__item">
           <i class="fab fa-js"></i>
@@ -83,10 +83,6 @@
           <p>Sass/SCSS</p>
         </div>
         <div class="skills__item">
-          <i class="fas fa-cogs"></i>
-          <p>API</p>
-        </div>
-        <div class="skills__item">
           <i class="fab fa-git-alt"></i>
           <p>Git</p>
         </div>
@@ -95,8 +91,12 @@
           <p>Responsive UI</p>
         </div>
         <div class="skills__item">
-          <i class="fas fa-universal-access"></i>
-          <p>Acessibility</p>
+          <i class="far fa-window-maximize"></i>
+          <p>Web Optimization</p>
+        </div>
+        <div class="skills__item">
+          <i class="fas fa-terminal"></i>
+          <p>Command Line</p>
         </div>
         <div class="skills__item">
           <i class="fab fa-figma"></i>
@@ -104,10 +104,10 @@
         </div>
       </div>
     </section>
-    <section class="divider-box">
+    <div class="divider-box">
       <div class="divider-large-mb"></div>
       <div class="divider-large"></div>
-    </section>
+    </div>
     <section class="currently container">
       <div class="currently__text">
         <h2>These are the things I'm currently doing</h2>
@@ -130,18 +130,16 @@
           </p>
         </div>
         <div class="currently__item">
-          <p>
             <p>
               Participating in the <a href="https://www.100daysofcode.com">100 Days Of Code</a> challenge
             </p>
-          </p>
         </div>
       </div>
     </section>
-    <section class="divider-box">
+    <div class="divider-box">
       <div class="divider-large-mb"></div>
       <div class="divider-large"></div>
-    </section>
+    </div>
     <section class="showcase container">
       <div class="showcase__text">
         <h2>Featured Projects</h2>
@@ -150,7 +148,7 @@
       <div class="showcase__grid">
         <div class="showcase__item">
           <h3>WeatherApp</h3>
-          <a class="showcase__link" rel="noopener" href="https://janbur96.github.io/WeatherApp/" target="_blank" rel="noopener"><img src="./assets/images/WeatherApp2.png" alt="A screenshot of the Weather App I made"></a>
+          <a class="showcase__link" href="https://janbur96.github.io/WeatherApp/" target="_blank" rel="noopener"><img src="./assets/images/WeatherApp2.png" alt="A screenshot of the Weather App I made"></a>
           <div class="showcase__btns">
             <a class="button-small" target="_blank" rel="noopener" href="https://janbur96.github.io/WeatherApp/">Live</a>
             <a class="button-small" target="_blank" rel="noopener" href="https://github.com/JanBur96/WeatherApp">Code</a>
@@ -169,10 +167,10 @@
         <a class="button" href="#">More Projects</a>
       </div>
     </section>
-    <section class="divider-box">
+    <div class="divider-box">
       <div class="divider-small"></div>
       <div class="divider-large-mt"></div>
-    </section>
+    </div>
     <section class="contact container" id="contact">
       <div class="contact__text">
         <h2>Contact me</h2>

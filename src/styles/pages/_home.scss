@@ -93,7 +93,7 @@ main {
   width: 100%;
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: $l-size;
   color: $white;
   text-align: center;
@@ -136,8 +136,8 @@ main {
 
 .currently__grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 1.6rem;
   justify-content: center;
   align-items: center;
@@ -187,12 +187,13 @@ main {
 .showcase__grid {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: center;
   text-align: center;
   gap: $s-size;
+
 }
 
 .showcase__grid h3 {
@@ -202,7 +203,7 @@ main {
 
 .showcase__grid img {
   width: 24.25rem;
-  height: auto;
+  height: 14.08rem;
   margin-bottom: $m-size;
   border-radius: 5px;
   cursor: pointer;

@@ -11,7 +11,9 @@ I tried to keep the website as minimalist and clean as possible.
 ### Pages
 
 * Home: A quick overview about me and my projects + a contact form.
+   
 * Projects: Five featured projects + a link to my Github, where all projects are stored.
+   
 * Misc (not done yet): Resources, tips and much more.
 
 ### Tech Used

@@ -1,5 +1,5 @@
 // Get the elements
-let upButton = document.getElementById('button-up');
+let upButton = document.querySelector('.button-up');
 
 // Scroll to top button
 window.onscroll = function() {scrollFunction()};
