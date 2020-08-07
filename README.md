@@ -1,3 +1,3 @@
-![Website Banner Logo](https://imgur.com/a/kULuEGE.png)
+![Website Banner Logo](https://i.imgur.com/kULuEGE.png)
 
 # jan-web.dev
