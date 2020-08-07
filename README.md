@@ -6,9 +6,9 @@ This is my personal website/portfolio. I've created it so you can learn more abo
 
 ## Informations 
 
----
-
 I tried to keep the website as minimalist and clean as possible. 
+
+### Pages
 
 * Home: A quick overview about me and my projects + a contact form.
    
@@ -16,10 +16,16 @@ I tried to keep the website as minimalist and clean as possible.
    
 * Misc (not done yet): Resources, tips and much more.
 
-### Tech used
+### Tech Used
 
 * HTML5
 * CSS3
 * Sass/Scss
 * JavaScript
-  
+
+### Notable Features
+
+* Responsive Design
+* Very High Google Lighthouse Rating
+* Great Maintainability (Sass 7-1 + BEM)
+
