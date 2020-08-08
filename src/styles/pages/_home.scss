@@ -29,7 +29,7 @@ main {
   }
 }
 
-.about__text p {
+.about__paragraph {
   font-size: 2.7rem;
   line-height: 1.5em;
 
@@ -39,18 +39,7 @@ main {
   }
 }
 
-.about__button {
-  width: 15rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  @media (max-width: $breakpoint-one) {
-    width: 16rem;
-  }
-}
-
-.about__picture img {
+.about__picture {
   position: absolute;
   width: 20rem;
   height: 20rem;
@@ -68,6 +57,17 @@ main {
     border-radius: 50%;
     object-fit: cover;
     transform: none;
+  }
+}
+
+.about__button {
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: $breakpoint-one) {
+    width: 16rem;
   }
 }
 
@@ -93,20 +93,10 @@ main {
   width: 100%;
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(14.49rem, 15.5fr));
   gap: $l-size;
   color: $white;
   text-align: center;
-}
-
-.skills__grid p {
-  font-size: $s-size;
-}
-
-.skills__grid i {
-  margin-bottom: 1rem;
-  color: $white;
-  font-size: 6.4rem;
 }
 
 .skills__item {
@@ -115,6 +105,16 @@ main {
   border-radius: 15px;
   background-color: darken($dark-blue, 5%);
   transition: .35s;
+}
+
+.skills__icon {
+  margin-bottom: 1rem;
+  color: $white;
+  font-size: 6.4rem;
+}
+
+.skills__paragraph {
+  font-size: $s-size;
 }
 
 /* Currently */
@@ -144,15 +144,6 @@ main {
   text-align: center;
 }
 
-.currently__grid a {
-  color: $cyan;
-  text-decoration: underline;
-
-  &:visited {
-    color: $cyan;
-  }
-}
-
 .currently__item {
   height: 8rem;
   border: 2px solid $gold-brown;
@@ -163,9 +154,19 @@ main {
   background-color: darken($dark-blue, 5%);
 }
 
-.currently__item p {
+.currently__paragraph {
   font-size: $s-size;
 }
+
+.currently__link {
+  color: $cyan;
+  text-decoration: underline;
+
+  &:visited {
+    color: $cyan;
+  }
+}
+
 
 /* Projects */
 .showcase {
@@ -196,12 +197,12 @@ main {
 
 }
 
-.showcase__grid h3 {
+.showcase__header-3 {
   margin-bottom: $s-size;
   padding-top: $xs-size;
 }
 
-.showcase__grid img {
+.showcase__image {
   width: 24.25rem;
   height: 14.08rem;
   margin-bottom: $m-size;
@@ -220,7 +221,7 @@ main {
   cursor: unset;
 }
 
-.showcase__btns {
+.showcase__buttons {
   padding: 0 0 $s-size 0;
   display: flex;
   justify-content: center;

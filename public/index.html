@@ -27,16 +27,16 @@
   </head>
 <body>
   <button class="button-up" title="Go to top"><i class="fas fa-arrow-up"></i></button>
-  <header>
-      <nav>
-        <div class="logo">
-          <a href="#">JB</a>
+  <header class="header">
+      <nav class="navigation">
+        <div class="navigation__logo">
+          <a class="link-1 navigation__logo__link" href="#">JB</a>
         </div>
-        <div class="navigation">
-          <ul>
-            <li class="current-site"><a href="#">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="misc.html">Misc.</a></li>
+        <div class="navigation__navbar">
+          <ul class="navigation__list">
+            <li class="list-1 navigation__item current-site"><a class="link-1 navigation__link" href="#">Home</a></li>
+            <li class="list-1 navigation__item"><a class="link-1 navigation__link" href="projects.html">Projects</a></li>
+            <li class="list-1 navigation__item"><a class="link-1 navigation__link" href="misc.html">Misc.</a></li>
           </ul>
         </div>
       </nav>
@@ -44,13 +44,13 @@
   <main>
     <section class="about container">
       <div class="about__text">
-        <h1>Hey, I'm Jan</h1>
-        <p>I'm a <strong>front-end developer</strong> and <strong>web designer</strong> with a lot of <strong>ambition</strong> and <strong>passion</strong> from <strong>Lemgo, Germany</strong>.</p>
+        <h1 class="heading-1">Hey, I'm Jan</h1>
+        <p class="paragraph-1 about__paragraph">I'm a <strong>front-end developer</strong> and <strong>web designer</strong> with a lot of <strong>ambition</strong> and <strong>passion</strong> from <strong>Lemgo, Germany</strong>.</p>
       </div>
-      <div class="about__picture">
-        <img src="./assets/images/Me.png" alt="A picture of me (Jan)">
+      <div>
+        <img class="about__picture" src="./assets/images/Me.png" alt="A picture of me (Jan)">
       </div>
-      <a href="#contact" class="about__button button">Contact Me</a>
+      <a href="#contact" class="link-1 about__button button">Contact Me</a>
     </section>
     <div class="divider-box">
       <div class="divider-large-mb"></div>
@@ -58,49 +58,49 @@
     </div>
     <section class="skills container">
       <div class="skills__text">
-        <h2>Tech Stack</h2>
-        <p>My constantly evolving skills - these are the technologies I'm capable to use:</p>
+        <h2 class="heading-2">Tech Stack</h2>
+        <p class="paragraph-1">My constantly evolving skills - these are the technologies I'm capable to use:</p>
       </div>
       <div class="skills__grid">
         <div class="skills__item">
-          <i class="fab fa-html5"></i>
-          <p>HTML5</p>
+          <i class="skills__icon fab fa-html5"></i>
+          <p class="paragraph-1 skills__paragraph">HTML5</p>
         </div>
         <div class="skills__item">
-          <i class="fab fa-css3-alt"></i>
-          <p>CSS</p>
+          <i class="skills__icon fab fa-css3-alt"></i>
+          <p class="paragraph-1 skills__paragraph">CSS</p>
         </div>
         <div class="skills__item">
-          <i class="fab fa-js"></i>
-          <p>JavaScript</p>
+          <i class="skills__icon fab fa-js"></i>
+          <p class="paragraph-1 skills__paragraph">JavaScript</p>
         </div>
         <div class="skills__item">
-          <i class="fab fa-react"></i>
-          <p>React</p>
+          <i class="skills__icon fab fa-react"></i>
+          <p class="paragraph-1 skills__paragraph">React</p>
         </div>
         <div class="skills__item">
-          <i class="fab fa-sass"></i>
-          <p>Sass/SCSS</p>
+          <i class="skills__icon fab fa-sass"></i>
+          <p class="paragraph-1 skills__paragraph">Sass/SCSS</p>
         </div>
         <div class="skills__item">
-          <i class="fab fa-git-alt"></i>
-          <p>Git</p>
+          <i class="skills__icon fab fa-git-alt"></i>
+          <p class="paragraph-1 skills__paragraph">Git</p>
         </div>
         <div class="skills__item">
-          <i class="fas fa-tablet-alt"></i>
-          <p>Responsive UI</p>
+          <i class="skills__icon fas fa-tablet-alt"></i>
+          <p class="paragraph-1 skills__paragraph">Responsive UI</p>
         </div>
         <div class="skills__item">
-          <i class="far fa-window-maximize"></i>
-          <p>Web Optimization</p>
+          <i class="skills__icon far fa-window-maximize"></i>
+          <p class="paragraph-1 skills__paragraph">Web Optimization</p>
         </div>
         <div class="skills__item">
-          <i class="fas fa-terminal"></i>
-          <p>Command Line</p>
+          <i class="skills__icon fas fa-terminal"></i>
+          <p class="paragraph-1 skills__paragraph">Command Line</p>
         </div>
         <div class="skills__item">
-          <i class="fab fa-figma"></i>
-          <p>Figma</p>
+          <i class="skills__icon fab fa-figma"></i>
+          <p class="paragraph-1 skills__paragraph">Figma</p>
         </div>
       </div>
     </section>
@@ -110,29 +110,29 @@
     </div>
     <section class="currently container">
       <div class="currently__text">
-        <h2>These are the things I'm currently doing</h2>
-        <p>A developer is always learning/improving. These are the things im currently doing:</p>
+        <h2 class="heading-2">These are the things I'm currently doing</h2>
+        <p class="paragraph-1">A developer is always learning/improving. These are the things im currently doing:</p>
       </div>
       <div class="currently__grid">
         <div class="currently__item">
-          <p>
+          <p class="paragraph-1 currently__paragraph">
             Improving my UI/UX design skills
           </p>
         </div>
         <div class="currently__item">
-          <p>
+          <p class="paragraph-1 currently__paragraph">
             Improving my problem-solving skills
           </p>
         </div>
         <div class="currently__item">
-          <p>
+          <p class="paragraph-1 currently__paragraph">
             Learning React with Hooks & Redux
           </p>
         </div>
         <div class="currently__item">
-            <p>
-              Participating in the <a href="https://www.100daysofcode.com">100 Days Of Code</a> challenge
-            </p>
+          <p class="paragraph-1 currently__paragraph">
+            Participating in the <a class="link-1 currently__link" href="https://www.100daysofcode.com">100 Days Of Code</a> challenge
+          </p>
         </div>
       </div>
     </section>
@@ -142,29 +142,29 @@
     </div>
     <section class="showcase container">
       <div class="showcase__text">
-        <h2>Featured Projects</h2>
-        <p>Two out of many projects. Click the button below to see all of my projects.</p>
+        <h2 class="heading-2">Featured Projects</h2>
+        <p class="paragraph-1">Two out of many projects. Click the button below to see all of my projects.</p>
       </div>
       <div class="showcase__grid">
         <div class="showcase__item">
-          <h3>WeatherApp</h3>
-          <a class="showcase__link" href="https://janbur96.github.io/WeatherApp/" target="_blank" rel="noopener"><img src="./assets/images/WeatherApp2.png" alt="A screenshot of the Weather App I made"></a>
-          <div class="showcase__btns">
-            <a class="button-small" target="_blank" rel="noopener" href="https://janbur96.github.io/WeatherApp/">Live</a>
-            <a class="button-small" target="_blank" rel="noopener" href="https://github.com/JanBur96/WeatherApp">Code</a>
+          <h3 class="heading-3 showcase__header-3">WeatherApp</h3>
+          <a class="link-1 showcase__link" href="https://janbur96.github.io/WeatherApp/" target="_blank" rel="noopener"><img class="showcase__image" src="./assets/images/WeatherApp2.png" alt="A screenshot of the Weather App I made"></a>
+          <div class="showcase__buttons">
+            <a class="link-1 button-small" target="_blank" rel="noopener" href="https://janbur96.github.io/WeatherApp/">Live</a>
+            <a class="link-1 button-small" target="_blank" rel="noopener" href="https://github.com/JanBur96/WeatherApp">Code</a>
           </div>
         </div>
         <div class="showcase__item">
-          <h3>Rock-Paper-Scissors</h3>
-          <a class="showcase__link" rel="noopener" href="https://janbur96.github.io/Rock-Paper-Scissors/" target="_blank"><img src="./assets/images/Rock-Paper-Scissors.png" alt="A screenshot of the Rock Paper Scissors game I made"></a>
-          <div class="showcase__btns">
-            <a class="button-small" target="_blank" rel="noopener" href="https://janbur96.github.io/Rock-Paper-Scissors/">Live</a>
-            <a class="button-small" target="_blank" rel="noopener" href="https://github.com/JanBur96/Rock-Paper-Scissors">Code</a>
+          <h3 class="heading-3 showcase__header-3">Rock-Paper-Scissors</h3>
+          <a class="link-1 showcase__link" rel="noopener" href="https://janbur96.github.io/Rock-Paper-Scissors/" target="_blank"><img class="showcase__image" src="./assets/images/Rock-Paper-Scissors.png" alt="A screenshot of the Rock Paper Scissors game I made"></a>
+          <div class="showcase__buttons">
+            <a class="link-1 button-small" target="_blank" rel="noopener" href="https://janbur96.github.io/Rock-Paper-Scissors/">Live</a>
+            <a class="link-1 button-small" target="_blank" rel="noopener" href="https://github.com/JanBur96/Rock-Paper-Scissors">Code</a>
           </div>
         </div>
       </div>
       <div class="showcase__all">
-        <a class="button" href="#">More Projects</a>
+        <a class="link-1 button" href="projects.html">More Projects</a>
       </div>
     </section>
     <div class="divider-box">
@@ -173,41 +173,41 @@
     </div>
     <section class="contact container" id="contact">
       <div class="contact__text">
-        <h2>Contact me</h2>
+        <h2 class="heading-2 contact__heading-2">Contact me</h2>
       </div>
       <form action="https://formspree.io/moqkpbaz" method="post">
         <div class="contact__container">
           <div class="contact__field">
             <div class="contact__information">
               <div class="contact__name">
-                <label for="name">Name:</label>
-                <input type="text" placeholder="John Doe" id="name">
+                <label class="contact__label--name" for="name">Name:</label>
+                <input class="contact__input" type="text" placeholder="John Doe" id="name">
               </div>
               <div class="contact__email">
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="jane.doe@sayHello.com" id="email">
+                <label class="contact__label--email" for="email">Email:</label>
+                <input class="contact__input" type="email" name="email" placeholder="jane.doe@sayHello.com" id="email">
               </div>
             </div>
             <div class="contact__message">
-              <label for="message">Message:</label>
-              <textarea name="message" id="message" cols="60" rows="10" placeholder="Hey Jan! The reason I contact you..."></textarea>
+              <label class="contact__label--message" for="message">Message:</label>
+              <textarea class="link-1 contact__textarea" name="message" id="message" cols="60" rows="10" placeholder="Hey Jan! The reason I contact you..."></textarea>
             </div>
-            <button type="submit" class="button">Submit</button>
+            <button type="submit" class="contact__button button">Submit</button>
           </div>
         </div>
       </form>
     </section>
   </main>
   <footer>
-    <div class="footer-container">
-      <div class="footer-container__social-network">
-        <a target="_blank" rel="noopener" aria-label="GitHub" href="https://github.com/JanBur96"><i class="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener" aria-label="Twitter" href="https://twitter.com/Sephtyi"><i class="fab fa-twitter"></i></a>
-        <a target="_blank" rel="noopener" aria-label="LinkedIN" href="https://www.linkedin.com/in/jan-philipp-burghardt-5178081a8/"><i class="fab fa-linkedin"></i></a>
-        <a target="_blank" rel="noopener" aria-label="Xing" href="https://www.xing.com/profile/JanPhilipp_Burghardt3/cv"><i class="fab fa-xing"></i></a>
+    <div class="footer__container">
+      <div class="footer__social-network">
+        <a target="_blank" rel="noopener" aria-label="GitHub" href="https://github.com/JanBur96"><i class="footer__icon fab fa-github"></i></a>
+        <a target="_blank" rel="noopener" aria-label="Twitter" href="https://twitter.com/Sephtyi"><i class="footer__icon fab fa-twitter"></i></a>
+        <a target="_blank" rel="noopener" aria-label="LinkedIN" href="https://www.linkedin.com/in/jan-philipp-burghardt-5178081a8/"><i class="footer__icon fab fa-linkedin"></i></a>
+        <a target="_blank" rel="noopener" aria-label="Xing" href="https://www.xing.com/profile/JanPhilipp_Burghardt3/cv"><i class="footer__icon fab fa-xing"></i></a>
       </div>
-      <div class="copyright">
-        <p>&copy; 2020 by Jan. All rights reserved.</p>
+      <div class="footer__copyright">
+        <p class="paragraph-1 footer__paragraph">&copy; 2020 by Jan. All rights reserved.</p>
       </div>
     </div>
   </footer>

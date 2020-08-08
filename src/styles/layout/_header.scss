@@ -1,4 +1,4 @@
-header {
+.header {
   border-bottom: 5px solid $gold-brown;
   height: 8rem;
   padding: 0 0 0 $s-size;
@@ -6,17 +6,5 @@ header {
 
   @media (max-width: $breakpoint-one) {
     height: 7rem;
-  }
-}
-
-.logo a {
-  display: inline-block;
-  font-size: $xl-size;
-  margin: 0rem;
-  color: $gold-brown;
-  font-weight: 500;
-
-  @media (max-width: $breakpoint-one) {
-    font-size: 4rem;
   }
 }

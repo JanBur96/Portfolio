@@ -1,4 +1,4 @@
-nav {
+.navigation {
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -6,17 +6,40 @@ nav {
   color: $gold-brown;
 }
 
-.navigation {
-  height: 100%;
+.navigation__logo {
+  font-size: $xl-size;
+  margin: 0rem;
+  color: $gold-brown;
+  font-weight: 500;
+
+  @media (max-width: $breakpoint-one) {
+    font-size: 4rem;
+  }
 }
 
-nav ul {
+.navigation__logo__link {
+  display: inline-block;
+  font-size: $xl-size;
+  margin: 0rem;
+  color: $gold-brown;
+  font-weight: 500;
+
+  @media (max-width: $breakpoint-one) {
+    font-size: 4rem;
+  }
+}
+
+.navigation__navbar {
+height: 100%;
+}
+
+.navigation__list {
   height: 100%;
   display: flex;
   align-items: center;
 }
 
-nav li {
+.navigation__item {
   height: 100%;
   display: flex;
   justify-content: center;
@@ -27,11 +50,9 @@ nav li {
   &:hover {
     background-color: darken($dark-blue, 10%);
   }
-
-
 }
 
-nav li a {
+.navigation__link {
   height: 100%;
   padding: 0 $s-size;
   display: flex;
