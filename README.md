@@ -1,4 +1,4 @@
-![Website Banner Logo](https://i.imgur.com/TOnK5o4.png)
+![Website Banner Logo](https://i.imgur.com/fzo4peX.png)
 
 # jan-web.dev
 
