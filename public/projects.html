@@ -1,192 +1,596 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <!-- Primary Meta Tags -->
     <title>Take a look at my featured projects</title>
-    <meta name="title" content="Take a look at my featured Web-Development projects">
-    <meta name="description" content="These are my featured Web-Development projects, here you can see my skills in action. Feel free to use, recreate or modify them.">
-  
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jan-web.dev/">
-    <meta property="og:title" content="Take a look at my featured Web-Development projects">
-    <meta property="og:description" content="These are my featured Web-Development projects, here you can see my skills in action. Feel free to use, recreate or modify them.">
-    <meta property="og:image" content="https://jan-web.dev/assets/images/preview.png">
-  
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://jan-web.dev/">
-    <meta property="twitter:title" content="Take a look at my featured Web-Development projects">
-    <meta property="twitter:description" content="These are my featured Web-Development projects, here you can see my skills in action. Feel free to use, recreate or modify them.">
-    <meta property="twitter:image" content="https://jan-web.dev/assets/images/preview.png">
-  </head>
-<body>
-  <button class="button-up" title="Go to top"><i class="fas fa-arrow-up"></i></button>
-  <header class="header">
-    <nav class="navigation">
-      <div class="navigation__logo">
-        <a class="link-1 navigation__logo__link" href="#">JB</a>
-      </div>
-      <div class="navigation__navbar">
-        <ul class="navigation__list">
-          <li class="navigation__item"><a class="link-1 navigation__link" href="index.html">Home</a></li>
-          <li class="navigation__item current-site"><a class="link-1 navigation__link" href="#">Projects</a></li>
-          <li class="navigation__item"><a class="link-1 navigation__link" href="misc.html">Misc.</a></li>
-        </ul>
-      </div>
-    </nav>
-</header>
-  <main>
-    <section class="projects-intro container">
-      <h1 class="heading-1 projects__heading-1">Projects</h1>
-      <p class="paragraph-1">This page only lists some of my best projects. You can see all of my public projects on my <a class="link-1 projects__link" href="https://github.com/JanBur96?tab=repositories" target="_blank" rel="noopener">Github</a>.</p>
-    </section>
-    <section class="projects-list container">
-      <div class="projects-list__item">
-        <div class="projects-list__description">
-          <h2 class="heading-2 projects__heading-2">To-Do WebApp</h2>
-          <a rel="noopener" class="link-1 projects__link" target="_blank" href="https://janbur96.github.io/To-Do-List/">
-            <img class="projects__img" src="./assets/images/To-Do.png" alt="A picture of my to-do list">
-          </a>
-          <div class="projects__links">
-            <a class="link-1 projects__link" href="https://janbur96.github.io/To-Do-List/"><i class="projects__links__icon fas fa-desktop"></i>Live Preview</a>
-            <a class="link-1 projects__link" href="https://github.com/JanBur96/To-Do-List"><i class="projects__links__icon fas fa-code-branch"></i>Code</a>
-          </div>
-          <p class="paragraph-2 projects__paragraph">This To-Do was created to practice my vanilla JavaScript skills. It isn't perfect but it will soon be replaced by a better React To-Do Application.</p>
-        </div>
-        <div class="projects__additional-info">
-          <div class="projects-list__technologies-used">
-            <h3 class="heading-3 projects__heading-3">Technologies Used</h3>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-html5"></i>HTML5</p>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-css3-alt"></i>CSS3</p>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-js"></i>JavaScript</p>
-          </div>
-          <div class="projects__features-used">
-            <h3 class="heading-3 projects__heading-3">Notable Features</h3>
-            <ul>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Responsive Design</li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Clock</li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Done Button</li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Moveable Tasks</li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Delete Button </li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Local Storage Usage </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="divider-very-large"></div>
-      <div class="projects-list__item">
-        <div class="projects-list__description">
-          <h2 class="heading-2 projects__heading-2">Rock, Paper, Scissors</h2>
-          <a rel="noopener" class="link-1 projects__link" target="_blank" href="https://janbur96.github.io/Rock-Paper-Scissors/">
-            <img class="projects__img" src="./assets/images/Rock-Paper-Scissors.png" alt="A picture of my Rock, Paper, Scissors game">
-          </a>
-          <div class="projects__links">
-            <a class="link-1 projects__link" href="https://janbur96.github.io/Rock-Paper-Scissors/"><i class="projects__links__icon fas fa-desktop"></i>Live Preview</a>
-            <a class="link-1 projects__link" href="https://github.com/JanBur96/Rock-Paper-Scissors"><i class="projects__links__icon fas fa-code-branch"></i>Code</a>
-          </div>
-          <p class="paragraph-2 projects__paragraph">The Rock, Paper, Scissors game is the first JS game I created. It's a good project for practicing logic and DOM Manipulation.</p>
-        </div>
-        <div class="projects__additional-info">
-          <div class="projects-list__technologies-used">
-            <h3 class="heading-3 projects__heading-3">Technologies Used</h3>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-html5"></i>HTML5</p>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-css3-alt"></i>CSS3</p>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-js"></i>JavaScript</p>
-          </div>
-          <div class="projects__features-used">
-            <h3 class="heading-3 projects__heading-3">Notable Features</h3>
-            <ul>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Arcade Design</li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Independent Choices By The CPU</li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Responsive Design</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="divider-very-large"></div>
-      <div class="projects-list__item">
-        <div class="projects-list__description">
-          <h2 class="heading-2 projects__heading-2">Tic-Tac-Toe</h2>
-          <a rel="noopener" class="link-1 projects__link" target="_blank" href="https://janbur96.github.io/Tic-Tac-Toe/">
-            <img class="projects__img" src="./assets/images/Tic-Tac-Toe.png" alt="A picture of my Tic-Tac-Toe project">
-          </a>
-          <div class="projects__links">
-            <a class="link-1 projects__link" href="https://janbur96.github.io/Tic-Tac-Toe/"><i class="projects__links__icon fas fa-desktop"></i>Live Preview</a>
-            <a class="link-1 projects__link" href="https://github.com/JanBur96/Tic-Tac-Toe"><i class="projects__links__icon fas fa-code-branch"></i>Code</a>
-          </div>
-          <p class="paragraph-2 projects__paragraph">Another great project to practice logic and DOM Manipulation. The goal was to create a game which you can play against a friend.</p>
-        </div>
-        <div class="projects__additional-info">
-          <div class="projects-list__technologies-used">
-            <h3 class="heading-3 projects__heading-3">Technologies Used</h3>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-html5"></i>HTML5</p>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-css3-alt"></i>CSS3</p>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-js"></i>JavaScript</p>
-          </div>
-          <div class="projects__features-used">
-            <h3 class="heading-3 projects__heading-3">Notable Features</h3>
-            <ul>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Arcade Design</li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Playable Against A Friend</li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Winning Screen</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="divider-very-large"></div>
-      <div class="projects-list__item">
-        <div class="projects-list__description">
-          <h2 class="heading-2 projects__heading-2">jan-web.dev</h2>
-          <a rel="noopener" class="link-1 projects__link" target="_blank" href="https://jan-web.dev/">
-            <img class="projects__img" src="./assets/images/Website.png" alt="A picture of my website">
-          </a>
-          <div class="projects__links">
-            <a class="link-1 projects__link" href="https://jan-web.dev/"><i class="projects__links__icon fas fa-desktop"></i>Live Preview</a>
-            <a class="link-1 projects__link" href="https://github.com/JanBur96/Portfolio"><i class="projects__links__icon fas fa-code-branch"></i>Code</a>
-          </div>
-          <p class="paragraph-2 projects__paragraph">I created this website for myself so I can show off my projects-list and you can learn more about me. I try to keep this website as simple and clean as possible.</p>
-        </div>
-        <div class="projects__additional-info">
-          <div class="projects-list__technologies-used">
-            <h3 class="heading-3 projects__heading-3">Technologies Used</h3>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-html5"></i>HTML5</p>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-css3-alt"></i>CSS3</p>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-js"></i>JavaScript</p>
-            <p class="paragraph-2 projects__paragraph"><i class="projects__additional-info__icon fab fa-sass"></i>Sass/SCSS</p>
-          </div>
-          <div class="projects__features-used">
-            <h3 class="heading-3 projects__heading-3">Notable Features</h3>
-            <ul>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Responsive Design</li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>High Accessibility</li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Great Maintainability (Sass 7-1 + BEM)</li>
-              <li class="projects__features-used__list"><i class="projects__features-used__icon far fa-dot-circle"></i>Very High Google Lighthouse Rating</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="footer__container">
-      <div class="footer__social-network">
-        <a target="_blank" rel="noopener" aria-label="GitHub" href="https://github.com/JanBur96"><i class="footer__icon fab fa-github"></i></a>
-        <a target="_blank" rel="noopener" aria-label="Twitter" href="https://twitter.com/Sephtyi"><i class="footer__icon fab fa-twitter"></i></a>
-        <a target="_blank" rel="noopener" aria-label="LinkedIN" href="https://www.linkedin.com/in/jan-philipp-burghardt-5178081a8/"><i class="footer__icon fab fa-linkedin"></i></a>
-        <a target="_blank" rel="noopener" aria-label="Xing" href="https://www.xing.com/profile/JanPhilipp_Burghardt3/cv"><i class="footer__icon fab fa-xing"></i></a>
-      </div>
-      <div class="footer__copyright">
-        <p class="footer__paragraph">&copy; 2020 by Jan. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+    <meta
+      name="title"
+      content="Take a look at my featured Web-Development projects"
+    />
+    <meta
+      name="description"
+      content="These are my featured Web-Development projects, here you can see my skills in action. Feel free to use, recreate or modify them."
+    />
 
-  <script src="./js/app.js"></script>
-</body>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jan-web.dev/" />
+    <meta
+      property="og:title"
+      content="Take a look at my featured Web-Development projects"
+    />
+    <meta
+      property="og:description"
+      content="These are my featured Web-Development projects, here you can see my skills in action. Feel free to use, recreate or modify them."
+    />
+    <meta
+      property="og:image"
+      content="https://jan-web.dev/assets/images/preview.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://jan-web.dev/" />
+    <meta
+      property="twitter:title"
+      content="Take a look at my featured Web-Development projects"
+    />
+    <meta
+      property="twitter:description"
+      content="These are my featured Web-Development projects, here you can see my skills in action. Feel free to use, recreate or modify them."
+    />
+    <meta
+      property="twitter:image"
+      content="https://jan-web.dev/assets/images/preview.png"
+    />
+  </head>
+  <body>
+    <button class="button-up" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <header class="header">
+      <nav class="navigation">
+        <div class="navigation__logo">
+          <a class="link-1 navigation__logo__link" href="#">JB</a>
+        </div>
+        <div class="navigation__navbar">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="link-1 navigation__link" href="index.html">Home</a>
+            </li>
+            <li class="navigation__item current-site">
+              <a class="link-1 navigation__link" href="#">Projects</a>
+            </li>
+            <li class="navigation__item">
+              <a class="link-1 navigation__link" href="misc.html">Misc.</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="projects-intro container">
+        <h1 class="heading-1 projects__heading-1">Projects</h1>
+        <p class="paragraph-1">
+          This page only lists some of my best projects. You can see all of my
+          public projects on my
+          <a
+            class="link-1 projects__link"
+            href="https://github.com/JanBur96?tab=repositories"
+            target="_blank"
+            rel="noopener"
+            >Github</a
+          >.
+        </p>
+      </section>
+      <section class="projects-list container">
+        <div class="projects-list__item">
+          <div class="projects-list__description">
+            <h2 class="heading-2 projects__heading-2">Visit-OWL</h2>
+            <a
+              rel="noopener"
+              class="link-1 projects__link"
+              target="_blank"
+              href="https://janbur96.github.io/Visit-OWL/"
+            >
+              <img
+                class="projects__img"
+                src="./assets/images/Visit-OWL.png"
+                alt="A picture of my to-do list"
+              />
+            </a>
+            <div class="projects__links">
+              <a
+                class="link-1 projects__link"
+                href="https://janbur96.github.io/Visit-OWL/"
+                ><i class="projects__links__icon fas fa-desktop"></i>Live
+                Preview</a
+              >
+              <a
+                class="link-1 projects__link"
+                href="https://github.com/JanBur96/Visit-OWL"
+                ><i class="projects__links__icon fas fa-code-branch"></i>Code</a
+              >
+            </div>
+            <p class="paragraph-2 projects__paragraph">
+              This is my first project with Tailwind CSS. This project doesn't
+              have any functionality it's just to present my UI skills.
+            </p>
+          </div>
+          <div class="projects__additional-info">
+            <div class="projects-list__technologies-used">
+              <h3 class="heading-3 projects__heading-3">Technologies Used</h3>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-html5"></i
+                >HTML5
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-css3-alt"></i
+                >CSS3
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-js"></i
+                >JavaScript
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon far fa-file-code"></i
+                >Tailwind CSS
+              </p>
+            </div>
+            <div class="projects__features-used">
+              <h3 class="heading-3 projects__heading-3">Notable Features</h3>
+              <ul>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Responsive Design
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Very modern design
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Tailwind CSS usage
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="divider-very-large"></div>
+        <div class="projects-list__item">
+          <div class="projects-list__description">
+            <h2 class="heading-2 projects__heading-2">React Task-List</h2>
+            <a
+              rel="noopener"
+              class="link-1 projects__link"
+              target="_blank"
+              href="https://task-list.jan-web.dev/"
+            >
+              <img
+                class="projects__img"
+                src="./assets/images/React_Task-List.png"
+                alt="A picture of my to-do list"
+              />
+            </a>
+            <div class="projects__links">
+              <a
+                class="link-1 projects__link"
+                href="https://task-list.jan-web.dev/"
+                ><i class="projects__links__icon fas fa-desktop"></i>Live
+                Preview</a
+              >
+              <a
+                class="link-1 projects__link"
+                href="https://github.com/JanBur96/React-Task-List"
+                ><i class="projects__links__icon fas fa-code-branch"></i>Code</a
+              >
+            </div>
+            <p class="paragraph-2 projects__paragraph">
+              This is the second Task-List I've made. This time I made it with
+              React to practice my React skills.
+            </p>
+          </div>
+          <div class="projects__additional-info">
+            <div class="projects-list__technologies-used">
+              <h3 class="heading-3 projects__heading-3">Technologies Used</h3>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-html5"></i
+                >HTML5
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-css3-alt"></i
+                >CSS3
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-js"></i
+                >JavaScript
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-react"></i
+                >React
+              </p>
+            </div>
+            <div class="projects__features-used">
+              <h3 class="heading-3 projects__heading-3">Notable Features</h3>
+              <ul>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Responsive Design
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Clock
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Day/Night Mode
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Animations
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Delete Button
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Local Storage Usage
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="divider-very-large"></div>
+        <div class="projects-list__item">
+          <div class="projects-list__description">
+            <h2 class="heading-2 projects__heading-2">To-Do WebApp</h2>
+            <a
+              rel="noopener"
+              class="link-1 projects__link"
+              target="_blank"
+              href="https://janbur96.github.io/To-Do-List/"
+            >
+              <img
+                class="projects__img"
+                src="./assets/images/To-Do.png"
+                alt="A picture of my to-do list"
+              />
+            </a>
+            <div class="projects__links">
+              <a
+                class="link-1 projects__link"
+                href="https://janbur96.github.io/To-Do-List/"
+                ><i class="projects__links__icon fas fa-desktop"></i>Live
+                Preview</a
+              >
+              <a
+                class="link-1 projects__link"
+                href="https://github.com/JanBur96/To-Do-List"
+                ><i class="projects__links__icon fas fa-code-branch"></i>Code</a
+              >
+            </div>
+            <p class="paragraph-2 projects__paragraph">
+              This To-Do was created to practice my vanilla JavaScript skills.
+              It isn't perfect but it will soon be replaced by a better React
+              To-Do Application.
+            </p>
+          </div>
+          <div class="projects__additional-info">
+            <div class="projects-list__technologies-used">
+              <h3 class="heading-3 projects__heading-3">Technologies Used</h3>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-html5"></i
+                >HTML5
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-css3-alt"></i
+                >CSS3
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-js"></i
+                >JavaScript
+              </p>
+            </div>
+            <div class="projects__features-used">
+              <h3 class="heading-3 projects__heading-3">Notable Features</h3>
+              <ul>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Responsive Design
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Clock
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Done Button
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Moveable Tasks
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Delete Button
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Local Storage Usage
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="divider-very-large"></div>
+        <div class="projects-list__item">
+          <div class="projects-list__description">
+            <h2 class="heading-2 projects__heading-2">Rock, Paper, Scissors</h2>
+            <a
+              rel="noopener"
+              class="link-1 projects__link"
+              target="_blank"
+              href="https://janbur96.github.io/Rock-Paper-Scissors/"
+            >
+              <img
+                class="projects__img"
+                src="./assets/images/Rock-Paper-Scissors.png"
+                alt="A picture of my Rock, Paper, Scissors game"
+              />
+            </a>
+            <div class="projects__links">
+              <a
+                class="link-1 projects__link"
+                href="https://janbur96.github.io/Rock-Paper-Scissors/"
+                ><i class="projects__links__icon fas fa-desktop"></i>Live
+                Preview</a
+              >
+              <a
+                class="link-1 projects__link"
+                href="https://github.com/JanBur96/Rock-Paper-Scissors"
+                ><i class="projects__links__icon fas fa-code-branch"></i>Code</a
+              >
+            </div>
+            <p class="paragraph-2 projects__paragraph">
+              The Rock, Paper, Scissors game is the first JS game I created.
+              It's a good project for practicing logic and DOM Manipulation.
+            </p>
+          </div>
+          <div class="projects__additional-info">
+            <div class="projects-list__technologies-used">
+              <h3 class="heading-3 projects__heading-3">Technologies Used</h3>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-html5"></i
+                >HTML5
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-css3-alt"></i
+                >CSS3
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-js"></i
+                >JavaScript
+              </p>
+            </div>
+            <div class="projects__features-used">
+              <h3 class="heading-3 projects__heading-3">Notable Features</h3>
+              <ul>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Arcade Design
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Independent Choices By The CPU
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Responsive Design
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="divider-very-large"></div>
+        <div class="projects-list__item">
+          <div class="projects-list__description">
+            <h2 class="heading-2 projects__heading-2">Tic-Tac-Toe</h2>
+            <a
+              rel="noopener"
+              class="link-1 projects__link"
+              target="_blank"
+              href="https://janbur96.github.io/Tic-Tac-Toe/"
+            >
+              <img
+                class="projects__img"
+                src="./assets/images/Tic-Tac-Toe.png"
+                alt="A picture of my Tic-Tac-Toe project"
+              />
+            </a>
+            <div class="projects__links">
+              <a
+                class="link-1 projects__link"
+                href="https://janbur96.github.io/Tic-Tac-Toe/"
+                ><i class="projects__links__icon fas fa-desktop"></i>Live
+                Preview</a
+              >
+              <a
+                class="link-1 projects__link"
+                href="https://github.com/JanBur96/Tic-Tac-Toe"
+                ><i class="projects__links__icon fas fa-code-branch"></i>Code</a
+              >
+            </div>
+            <p class="paragraph-2 projects__paragraph">
+              Another great project to practice logic and DOM Manipulation. The
+              goal was to create a game which you can play against a friend.
+            </p>
+          </div>
+          <div class="projects__additional-info">
+            <div class="projects-list__technologies-used">
+              <h3 class="heading-3 projects__heading-3">Technologies Used</h3>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-html5"></i
+                >HTML5
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-css3-alt"></i
+                >CSS3
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-js"></i
+                >JavaScript
+              </p>
+            </div>
+            <div class="projects__features-used">
+              <h3 class="heading-3 projects__heading-3">Notable Features</h3>
+              <ul>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Arcade Design
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Playable Against A Friend
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Winning Screen
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="divider-very-large"></div>
+        <div class="projects-list__item">
+          <div class="projects-list__description">
+            <h2 class="heading-2 projects__heading-2">jan-web.dev</h2>
+            <a
+              rel="noopener"
+              class="link-1 projects__link"
+              target="_blank"
+              href="https://jan-web.dev/"
+            >
+              <img
+                class="projects__img"
+                src="./assets/images/Website.png"
+                alt="A picture of my website"
+              />
+            </a>
+            <div class="projects__links">
+              <a class="link-1 projects__link" href="https://jan-web.dev/"
+                ><i class="projects__links__icon fas fa-desktop"></i>Live
+                Preview</a
+              >
+              <a
+                class="link-1 projects__link"
+                href="https://github.com/JanBur96/Portfolio"
+                ><i class="projects__links__icon fas fa-code-branch"></i>Code</a
+              >
+            </div>
+            <p class="paragraph-2 projects__paragraph">
+              I created this website for myself so I can show off my
+              projects-list and you can learn more about me. I try to keep this
+              website as simple and clean as possible.
+            </p>
+          </div>
+          <div class="projects__additional-info">
+            <div class="projects-list__technologies-used">
+              <h3 class="heading-3 projects__heading-3">Technologies Used</h3>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-html5"></i
+                >HTML5
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-css3-alt"></i
+                >CSS3
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-js"></i
+                >JavaScript
+              </p>
+              <p class="paragraph-2 projects__paragraph">
+                <i class="projects__additional-info__icon fab fa-sass"></i
+                >Sass/SCSS
+              </p>
+            </div>
+            <div class="projects__features-used">
+              <h3 class="heading-3 projects__heading-3">Notable Features</h3>
+              <ul>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Responsive Design
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >High Accessibility
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Great Maintainability (Sass 7-1 + BEM)
+                </li>
+                <li class="projects__features-used__list">
+                  <i class="projects__features-used__icon far fa-dot-circle"></i
+                  >Very High Google Lighthouse Rating
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__container">
+        <div class="footer__social-network">
+          <a
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+            href="https://github.com/JanBur96"
+            ><i class="footer__icon fab fa-github"></i
+          ></a>
+          <a
+            target="_blank"
+            rel="noopener"
+            aria-label="Twitter"
+            href="https://twitter.com/Sephtyi"
+            ><i class="footer__icon fab fa-twitter"></i
+          ></a>
+          <a
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIN"
+            href="https://www.linkedin.com/in/jan-philipp-burghardt-5178081a8/"
+            ><i class="footer__icon fab fa-linkedin"></i
+          ></a>
+          <a
+            target="_blank"
+            rel="noopener"
+            aria-label="Xing"
+            href="https://www.xing.com/profile/JanPhilipp_Burghardt3/cv"
+            ><i class="footer__icon fab fa-xing"></i
+          ></a>
+        </div>
+        <div class="footer__copyright">
+          <p class="footer__paragraph">
+            &copy; 2020 by Jan. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
 </html>
